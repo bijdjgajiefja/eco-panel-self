@@ -1,0 +1,127 @@
+    .bg-type-cream {
+        background: #f8f7fc;
+    }
+    /* Start of home_blogs-section-2 [roofing and cladding] */
+    
+    .inner-blogs-part2 img {
+        margin-bottom: 20px;
+    }
+    
+    .roofing-cladding {
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        padding: 40px 0 20px;
+    }
+    
+    .share-read {
+        max-width: 100%;
+        font-size: 18px;
+        padding: 10px 0;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+        text-align: center;
+        color: #666;
+    }
+    
+    .roofing-cladding h2 {
+        font-size: 21px;
+        color: #1f468a;
+    }
+    
+    .roofing-cladding h1 {
+        font-weight: 400;
+    }
+    
+    .share-read .span1 {
+        padding-left: 150px;
+    }
+    
+    .inner-blogs-part {
+        max-width: 1050px;
+        margin: auto;
+    }
+    
+    .share-read .span2 {
+        padding-left: 80px;
+    }
+    
+    .share-read .span1 {
+        padding-left: 100px;
+    }
+    
+    .share-read .span2 {
+        padding-left: 80px;
+    }
+    /* Start of home_blogs-section-2 [roofing and cladding] */
+    /* Start of home_blogs-section-3 [real-blog] */
+    
+    .inner-blogs-part2 {
+        max-width: 900px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .inner-blogs-part2 p {
+        text-align: left;
+        color: #2d2d2d;
+    }
+    
+    .inner-blogs-part2 p:nth-child(2) {
+        border-left: 3px solid #1f468a;
+        padding-left: 20px;
+    }
+    /* End of home_blogs-section-3 [real-blog] */
+    /* Start of home_blogs-section-4 [blogs-choice] */
+    
+    .our-products-img.blogs-choice-img {
+        height: 286px;
+        width: 100%;
+        padding-top: 40px;
+    }
+    
+    .products-box.blogs-box {
+        margin-bottom: 50px;
+    }
+    
+    .products-box.blogs-box .button {
+        background: #1f468a;
+        color: white;
+        border-radius: 8px;
+        font-size: 12px;
+        padding: 6px 35px;
+    }
+    
+    .products-box.blogs-box h4 {
+        margin-top: revert;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: none;
+    }
+    
+    .products-box a:hover h4 {
+        color: #000;
+    }
+    
+    .products-box.blogs-box p {
+        color: #6f6f6f;
+        font-size: 13.5px;
+    }
+    
+    .products-box.blogs-box:hover::after {
+        opacity: 0;
+    }
+    
+    .fas.fa-arrow-right:hover {
+        color: inherit;
+    }
+    
+    .button i {
+        padding-left: 10px;
+    }
+    /* End of home_blogs-section-4 [blogs-choice] */

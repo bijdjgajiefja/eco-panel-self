@@ -1,0 +1,66 @@
+/* Start of section-3 [construction of shelter] */
+
+.services-section-3 {
+    padding-bottom: 70px;
+}
+
+.services-construction {
+    width: 100%;
+}
+
+.section-3.services-section-3 {
+    background: white;
+}
+
+.services-description {
+    position: relative;
+}
+
+.services-description h3 {
+    width: 70%;
+}
+
+.services-description h3::after {
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom: -8px;
+    left: 0;
+    right: 80%;
+    height: 3px;
+    background: #2d2d2d;
+    opacity: 0;
+}
+
+.services-description h3:hover::after {
+    content: '';
+    position: absolute;
+    z-index: 9;
+    bottom: -8px;
+    left: 0;
+    right: 80%;
+    height: 3px;
+    background: #2d2d2d;
+    opacity: 1;
+}
+
+.service-inner-section {
+    margin: 70px 0;
+}
+
+.services-learn-more:hover {
+    text-decoration: none;
+}
+
+.services-learn-more {
+    text-decoration: none;
+    color: #1f468a;
+    font-size: 16px;
+}
+
+.button i {
+    padding-left: 10px;
+}
+
+
+/* End of section-3 [construction of shelter] */

@@ -1,0 +1,66 @@
+h1 {
+    font-size: 31px;
+    font-family: domine;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* Start of about.html */
+
+.align {
+    align-self: flex-end;
+}
+
+.about-nav-section {
+    background: #f8f7fc;
+    box-shadow: 0 10px 20px #e9ebf4;
+    padding: 15px 0px;
+    z-index: 9;
+    margin: 10px;
+}
+
+
+/* End of nav-section */
+
+
+/* Start of nav-section */
+
+.inception-part {
+    padding: 100px 0;
+}
+
+.inception-part h4 {
+    text-align: center;
+}
+
+
+/* End of nav-section */
+
+
+/* Start of section-2 [about us] */
+
+.custom-padding {
+    padding: 50px 0;
+    background: #f8f7fc;
+}
+
+.part-1 {
+    padding: 40px 0;
+    background: #f8f7fc;
+}
+
+.about-us-main-foto {
+    width: 560px;
+}
+
+.about-us-main-foto {
+    width: 560px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+
+/* End of section-2 [about us] */

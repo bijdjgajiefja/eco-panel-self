@@ -1,0 +1,31 @@
+        p {
+            color: #6f6f6f;
+            font-size: 18px;
+        }
+        
+        h2 {
+            font-weight: 400;
+            font-size: 31px;
+        }
+        
+        h3 {
+            font-weight: 400;
+            font-size: 24px;
+        }
+        /* Start of products2-section-2 [Specification, Advantages */
+        
+        li.blue-house {
+            list-style-image: url("../img/blue-house2.png");
+            font-size: 18px;
+        }
+        /* Start of products2-section-2 [Specification, Advantages */
+        /* Start of products2-section-3 [products2-fotos] */
+        
+        .products2-fotos img {
+            width: 104%;
+        }
+        
+        .inner-products2-part {
+            margin: 70px 0;
+        }
+        /* Start of products2-section-3 [products2-fotos] */

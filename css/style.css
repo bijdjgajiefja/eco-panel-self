@@ -1,0 +1,681 @@
+    /* index.html */
+    
+    @import "font-face.css";
+    @import "bootstrap.css";
+    @import "fontawesome.css";
+    @import "fontawesome.min.css";
+    @import "all.css";
+    @import "all.min.css";
+    @import "about-style.css";
+    @import "contact-style.css";
+    @import "services-style.css";
+    @import "page-not-found-style.css";
+    @import "products2.css";
+    @import "home_blogs-style.css";
+    * {
+        font-family: "manrope";
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul {
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    input {
+        border-style: none;
+    }
+    
+    a :hover {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .fas.fa-arrow-right:hover {
+        color: white;
+    }
+    
+    .fas.fa-arrow-right {
+        padding-left: 5px;
+    }
+    /* .common-button {
+    background-color: #1f468a;
+    padding: 5px 15px;
+    border: 1px solid #1f468a;
+    border-radius: 8px;
+} */
+    /* Start of section-1 [navbar section] */
+    
+    .section-1 {
+        padding: 10px 0;
+    }
+    
+    .common-button a {
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        background: #1f468a;
+        border-radius: 10px;
+    }
+    
+    .navbar {
+        width: 70%;
+    }
+    
+    .home-lead h2 {
+        font-size: 18px;
+    }
+    
+    .section {
+        padding-bottom: 70px;
+    }
+    
+    .simple-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .simple-flex-1 {
+        display: flex;
+        justify-content: space-between;
+        /* width: 200px; */
+        /* padding: 70px 0 80px 0; */
+    }
+    
+    ul.simple-flex-1 a:hover {
+        text-decoration: none;
+        transition: .5s;
+    }
+    
+    .simple-flex-1 li {
+        margin-top: 16px;
+    }
+    
+    .home-icon {
+        width: 167px;
+    }
+    
+    .insert-flex h1 {
+        font-size: 48px;
+        font-weight: 400;
+    }
+    
+    .insert-flex {
+        display: flex;
+    }
+    
+    .home-lead {
+        padding: 170px 0;
+        max-width: 40%;
+    }
+    
+    .truck-with-logo {
+        position: absolute;
+        left: 50%;
+        right: 0;
+        width: 675px;
+    }
+    
+    .vision-description p {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .vision-description {
+        color: white;
+    }
+    
+    .logo {
+        width: 40px;
+    }
+    
+    .our-vision {
+        background: #1f468a;
+        z-index: 10;
+        position: absolute;
+        left: 45%;
+        width: 200px;
+        top: 200px;
+        bottom: 0;
+        border-radius: 8px;
+        padding: 15px;
+        height: 223px;
+    }
+    /* End of section-1 [navbar section] */
+    /* Start of section-3 [nepal's largest eco-panel industry]  */
+    
+    .section-3 {
+        background-image: url("../img/paper.jpg");
+        /* height: 715px; */
+        padding: 70px 0;
+    }
+    
+    .part-1 h4 {
+        color: #1f468a;
+        font-family: manrope;
+    }
+    
+    .section-3 h2 {
+        text-align: center;
+    }
+    
+    .crane {
+        width: 800px;
+    }
+    
+    .flex-col {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding: 70px 0;
+    }
+    
+    .happy-clients {
+        position: absolute;
+        top: 13%;
+        background: #1f468a;
+        color: white;
+        left: -8%;
+        border: 1px solid #1f468a;
+        border-radius: 8px;
+        height: 240px;
+        padding: 15px;
+        width: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    
+    .godown-photo {
+        position: relative;
+        width: 400px;
+    }
+    
+    .eco-panel-title {
+        color: #1f468a;
+    }
+    
+    .smiley-photo {
+        width: 60px;
+    }
+    
+    .button {
+        background: #1f468a;
+        color: white;
+        border-radius: 8px;
+        font-size: 18px;
+        border-style: none;
+        padding: 8px 40px;
+        display: inline-block;
+        padding: 12px 20px;
+        margin-top: 24px;
+    }
+    
+    .flex-item {
+        padding-bottom: 40px;
+    }
+    
+    .section-description p {
+        color: white;
+    }
+    /* End of section-3 [nepal's largest eco-panel industry]  */
+    /* Start of section-2 [environmental friendly product] */
+    
+    .section-4 {
+        background: #1f468a;
+        padding: 85px 0;
+    }
+    
+    .section-description {
+        color: white;
+    }
+    
+    .dual-part {
+        padding: 70px 0;
+    }
+    
+    .eco-panel-title h4 {
+        font-size: 21px;
+    }
+    
+    .eco-panel-title+h1 {
+        font-size: 34px;
+        font-family: domine;
+    }
+    
+    .section-top-part {
+        margin-bottom: 110px;
+    }
+    
+    .section-description p {
+        margin-top: 20px;
+    }
+    
+    .home-lead.padding-correction h2 {
+        font-size: 21px;
+        font-family: manrope;
+    }
+    
+    .sustainable-title {
+        background: white;
+        color: #32c36c;
+        max-width: 379px;
+        border-radius: 3px;
+        text-align: center;
+        padding: 1px 20px;
+    }
+    
+    .svg-file-icon {
+        width: 60px;
+    }
+    
+    .eco-panel-benefits {
+        border: 1px solid black;
+        background: white;
+        text-align: center;
+    }
+    
+    .eco-panel-benefits:hover {
+        background: #32c36c;
+    }
+    
+    .eco-panel-benefits:hover p {
+        color: black;
+    }
+    
+    .eco-panel-benefits a:hover {
+        text-decoration: none;
+        color: white;
+        /* background-color:green; */
+    }
+    /* End of section-2 [environmental friendly product] */
+    /* Start of section-5 [our products] */
+    
+    .section-title {
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .section-title h3 {
+        font-size: 34px;
+        color: #2d2d2d;
+        font-family: "Domine";
+    }
+    
+    .our-products-img {
+        height: 295px;
+        width: 100%;
+    }
+    
+    .second-transition {
+        color: #666;
+    }
+    
+    .products-box {
+        text-align: center;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 10px 10px #e9ebf4;
+        padding-bottom: 30px;
+    }
+    
+    .products-box h4 {
+        margin-top: revert;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    
+    .products-box a {
+        text-decoration: none;
+        /* color: white; */
+    }
+    
+    .products-box::after {
+        content: '';
+        position: absolute;
+        z-index: 9;
+        top: 360px;
+        left: 40%;
+        right: 40%;
+        height: 3px;
+        background: #2d2d2d;
+        opacity: 0;
+    }
+    
+    .section-5 {
+        margin-bottom: 60px;
+    }
+    
+    .products-box:hover::after {
+        opacity: 1;
+        ;
+    }
+    /* End of section-5 [our products] */
+    /* Start of section-6 [Testimonials contains slider] */
+    
+    .section-6 {
+        color: white;
+    }
+    
+    .sustainable-title.type-2 h4 {
+        font-family: manrope;
+        font-size: 21px;
+    }
+    
+    .testimonials-flex h3 {
+        font-size: 34px;
+        margin: 37px;
+    }
+    
+    .testimonials-flex {
+        text-align: center;
+    }
+    
+    .type-2 {
+        display: inline-block;
+    }
+    
+    .sayers {
+        border-radius: 50%;
+        border: 1px solid #1f468a;
+    }
+    
+    .customer-id {
+        font-family: domine;
+        font-size: 16px;
+        margin-left: 22%;
+    }
+    
+    .sayings p,
+    .customer-id p {
+        width: 80%;
+        display: inline-block;
+        vertical-align: -moz-middle-with-baseline;
+        font-family: manrope;
+        font-size: 18px;
+        padding-left: 10%;
+        color: white;
+    }
+    
+    .sayings img {
+        width: 64px;
+        vertical-align: baseline;
+    }
+    
+    .customer-id span {
+        padding-right: 20px;
+    }
+    /* End of section-6 [Testimonials] */
+    /* Start of section-7 [Media Gallery] */
+    
+    .section-7 {
+        padding-bottom: 85px;
+    }
+    
+    .gallery-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    
+    .gallery-foto {
+        padding: 8px 0;
+        width: 105%;
+    }
+    /* End of section-7 [Media Gallery] */
+    /* Start of section-8 [Call us now] */
+    
+    .section-8 {
+        background: #2c4be5;
+        color: white;
+        padding: 85px 0;
+        margin-bottom: -21px;
+    }
+    
+    .call-us-title h3 {
+        font-size: 27px;
+        font-family: manrope;
+    }
+    
+    .call-us-button {
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .call-us-button button {
+        width: 200px;
+        color: #405ce7;
+        padding: 5px;
+        text-align: center;
+        font-size: 18px;
+        background-color: #fff;
+        border-style: none;
+        border-radius: 8px;
+    }
+    /* End of section-8 [Call us now] */
+    /* Start of section-9 [Glossary] */
+    
+    .section-9 {
+        background: #2d2d2d;
+        padding: 85px 0;
+    }
+    
+    .section-9 a {
+        font-size: 16px;
+    }
+    
+    .index-color {
+        color: white;
+        font-size: 18px;
+    }
+    
+    .index-color h5 {
+        font-size: 18px;
+    }
+    
+    li.num {
+        margin-bottom: 15px;
+    }
+    
+    .num a {
+        font-size: 27px;
+    }
+    
+    .glossary-sub-title a {
+        color: #bdbdbd;
+    }
+    
+    .glossary-sub-title.mail-me {
+        margin-bottom: 15px;
+    }
+    
+    .glossary-sub-title.mail-me a {
+        font-size: 18px;
+    }
+    
+    .glossary-sub-title.find-me {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .glossary-sub-title:first-child {
+        padding: 20px 0;
+    }
+    
+    .glossary-sub-title:first-child a {
+        color: #e9e9e9;
+    }
+    
+    .glossary-sub-title a:hover {
+        text-decoration: none;
+        /* color: initial; */
+    }
+    
+    .subscribe-here {
+        position: relative;
+    }
+    
+    .subscribe-here input {
+        width: -moz-available;
+        padding: 13px;
+        border-radius: 8px;
+    }
+    
+    .submit-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .fas.fa-map-marker-alt {
+        font-size: 13px;
+        padding-right: 5px;
+    }
+    
+    .submit-button button {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #1f468a;
+        background: #1f468a;
+        color: white;
+        font-family: manrope;
+        font-size: 18px;
+    }
+    
+    .second-part {
+        padding-top: 50px;
+    }
+    
+    .subscribe-here input {
+        background: #cdcdcd;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 16px;
+        font-family: marnrope;
+        background: #2d2d2d;
+        color: #bdbdbd;
+    }
+    
+    footer p {
+        font-size: 16px;
+    }
+    
+    footer p {
+        border-top: 1px solid #5d5d5d;
+        padding: 28px;
+    }
+    /* End of section-9 [Glossary] */
+    
+    .social-shares {
+        padding-right: 16px;
+        font-size: 16px;
+        font-family: 16px;
+        color: #bcbcbc;
+    }
+    
+    .social-shares:hover,
+    .social-shares i:hover {
+        color: #bcbcbc;
+        text-decoration: none;
+    }
+    /* End of about.html */
+    /* Start of Contact.css */
+    /* @import "contact-style.css"; */
+    /* End of Contact.css */
+    
+    .eco-panel-div .svg-file-icon {
+        width: 60px;
+    }
+    
+    .eco-panel-benefits:hover .eco-panel-div {
+        display: none;
+        transition: all 10s;
+    }
+    
+    .eco-panel-benefits:hover .eco-panel-div-description {
+        display: block;
+        transition: all 5s;
+    }
+    
+    .eco-panel-div-description {
+        display: none;
+    }
+    
+    .eco-panel-div-description {
+        display: none;
+        position: absolute;
+        top: 10%;
+        padding: 0 4%;
+    }
+    
+    .eco-panel-benefits {
+        height: 271px;
+        position: relative;
+        margin: 10px 0;
+        border-radius: 10px;
+        border-style: none;
+        padding: 18% 0;
+    }
+    
+    .benefits-title {
+        margin-top: 12px;
+    }
+    
+    .benefits-title h3 {
+        position: relative;
+    }
+    
+    .benefits-title h3::after {
+        content: '';
+        position: absolute;
+        z-index: 9;
+        bottom: -40%;
+        left: 40%;
+        right: 40%;
+        height: 3px;
+        background: #2d2d2d;
+    }
+    /* play-button pop-button */
+    
+    .play-button {
+        position: absolute;
+        z-index: 1;
+        top: 40%;
+        left: 45%;
+        width: 50px;
+        /* position: relative; */
+        transition: .5s;
+        opacity: 0;
+    }
+    
+    .flex-item.play-button-rel {
+        position: relative;
+    }
+    
+    .crane:hover .play-button {
+        opacity: 1;
+    }
+    
+    .flex-item.play-button-rel:hover .play-button {
+        opacity: 1;
+    }

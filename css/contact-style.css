@@ -1,0 +1,71 @@
+@import "font-face.css";
+
+/* End of section-2 [let's talk] */
+
+.input-class {
+    width: 100% !important;
+    border-style: solid;
+}
+
+#message {
+    width: 212%;
+}
+
+.form-input-class {
+    padding-bottom: 15px;
+}
+
+.section-2 {
+    /* padding: 40px 0; */
+    background: #f8f7fc;
+}
+
+.inner-section-2 {
+    padding: 40px 0;
+}
+
+.form-input-class label {
+    color: #666;
+    font-size: 16px;
+    font-family: manrope;
+}
+
+
+/* End of section-2 [let's talk] */
+
+
+/* Start of section-3 [office location] */
+
+.section-3.contact-section-3 {
+    background: white;
+}
+
+.bkt-foto {
+    width: 100%;
+}
+
+.png-file {
+    width: 83px;
+}
+
+.stream-line-class {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.get-in-touch {
+    margin-left: 5%;
+}
+
+.get-in-touch h2 {
+    text-align: left;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* End of section-3 [office location] */

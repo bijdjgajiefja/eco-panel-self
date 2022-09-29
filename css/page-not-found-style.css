@@ -1,0 +1,31 @@
+/* Start of page-not-found section  */
+
+.fetch-error-foto {
+    width: 415px;
+}
+
+.inner-error-part {
+    max-width: 500px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.fetch-error-flex-container {
+    text-align: center;
+}
+
+.fetch-error-flex-container div {
+    padding: 10px 0;
+}
+
+.go-homepage {
+    padding: .5em 2em;
+    background: #1f468a;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+
+/* End of page-not-found section  */
